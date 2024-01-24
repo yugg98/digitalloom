@@ -3,6 +3,7 @@ import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { MagnifyingGlassIcon } from '@heroicons/react/20/solid'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import Link from 'next/link'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -27,30 +28,30 @@ export default function Example() {
               </div>
               <div className="hidden lg:ml-6 lg:flex  lg:space-x-8">
                   {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
-                  <a
-                    href="#"
+                  <Link
+                    href="/"
                     className="inline-flex items-center  px-1 pt-1 text-sm font-medium text-gray-900"
                   >
-                    Dashboard
-                  </a>
-                  <a
-                    href="#"
+                    Home
+                  </Link>
+                  <Link
+                    href="/aboutus"
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
                   >
-                    Team
-                  </a>
-                  <a
-                    href="#"
+                    About us
+                  </Link>
+                  <Link
+                    href="/Ourservices"
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
                   >
-                    Projects
-                  </a>
-                  <a
-                    href="#"
+                   Services
+                  </Link>
+                  <Link
+                    href="/"
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
                   >
-                    Calendar
-                  </a>
+                    Faqs
+                  </Link>
                 </div>
               <div className="flex items-center lg:hidden">
                 {/* Mobile menu button */}
@@ -65,12 +66,12 @@ export default function Example() {
                 </Disclosure.Button>
               </div>
               <div className="hidden lg:ml-4 lg:flex lg:items-center">
-                <button
-                  type="button"
-                  className="relative flex-shrink-0 rounded-full  p-1 text-white bg-blue-700 py-2 px-4  hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                <Link
+                  href="/contact"
+                  className="relative flex-shrink-0 rounded-full outline-none  p-1 text-white bg-blue-700 py-2 px-4  hover:text-gray-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                 >
                 Contact us
-                </button>
+                </Link>
 
                
               </div>
