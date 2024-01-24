@@ -18,11 +18,15 @@ export default function Example() {
             <div className="flex h-16 justify-between">
               <div className="flex px-2 lg:px-0">
                 <div className="flex flex-shrink-0 items-center">
+                  <Link
+                  href="/"
+                  >
                   <img
-                    className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                    className="h-48 w-auto"
+                    src="/logo.svg"
                     alt="Your Company"
                   />
+                  </Link>
                 </div>
                
               </div>
