@@ -29,7 +29,7 @@ export default function Stats() {
                 experience across various applications, including prospecting,
                 client reporting, trading systems, back-office automation,
                 engineering, AI, Web3, and a spectrum of software solutions.
-                With a proven track record, we've successfully developed
+                With a proven track record, we&apos;ve successfully developed
                 high-performance teams.
               </p>
             </div>
