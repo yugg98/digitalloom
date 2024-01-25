@@ -15,15 +15,15 @@ const Steps = () => {
               From Conception to Realization: Forging the Route to Triumph
               <br />
               <br />
-              Embark on your transformative "Conception to Realization"
+              Embark on your transformative &quot;Conception to Realization&quot;
               odyssey with The Digital Loom. Immerse yourself in our
               unparalleled suite of integrated business, data, and technology
               services, where each step is meticulously curated to propel you
               toward unparalleled success.
               <br />
               <br />
-              From Current TDL Brochure: Support our clients on the "Ideas to
-              Execution" journey by providing best-in-class Integrated Business,
+              From Current TDL Brochure: Support our clients on the &quot;Ideas to
+              Execution&quot; journey by providing best-in-class Integrated Business,
               Data, and Technology Services. Merge together for a seamless path
               to triumph.
             </p>
