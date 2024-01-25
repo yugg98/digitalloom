@@ -23,7 +23,7 @@ export default function About() {
                 </p>
               </p>{" "}
               <p className="mt-2">
-                <span className="text-lg">
+                <span className="text-lg font-semibold text-blue-600">
               Passionate Pioneers with 60+ Years of Expertise</span> <br/>
                 At the core of The Digital Loom are founders with a collective
                 expertise of more than 60 years in IT consulting and

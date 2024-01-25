@@ -1,5 +1,5 @@
 "use client"
-import Tech from '@/components/Tech'
+import Tech, { Managedit } from '@/components/Tech'
 import Hero from '@/components/services/Hero'
 import Carousel from '@/components/services/Services'
 import React from 'react'
@@ -10,6 +10,7 @@ const page = () => {
         <Hero/>
         <Carousel/>
         <Tech/>
+        <Managedit/>
     </div>
   )
 }
