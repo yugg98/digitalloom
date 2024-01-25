@@ -1,3 +1,5 @@
+import Cta from "@/components/Cta";
+
 const faqs = [
    
     {
@@ -103,6 +105,7 @@ const faqs = [
             ))}
           </dl>
         </div>
+        <Cta/>
       </div>
     )
   }

@@ -1,4 +1,5 @@
 "use client"
+import Cta, { Ctar } from '@/components/Cta'
 import Steps from '@/components/Steps'
 import Hero from '@/components/aboutus/Hero'
 import Stats from '@/components/aboutus/Stats'
@@ -11,7 +12,9 @@ const page = () => {
         <Hero/>
         <Stats/>
         <Swear/>
+        <Ctar/>
         <Steps/>
+        <Cta/>
     </div>
   )
 }
