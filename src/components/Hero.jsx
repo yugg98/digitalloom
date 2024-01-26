@@ -23,7 +23,7 @@ export default function Hero() {
                 </div>
 
                 <div>
-                    <img class="w-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/1/hero-img.png" alt="" />
+                    <img class="w-full" src="/heros.svg" alt="" />
                 </div>
             </div>
         </div>
