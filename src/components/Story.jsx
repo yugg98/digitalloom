@@ -87,7 +87,7 @@ export default function Story() {
       {/* Story Circles */}
       <div>
         <p className="text-center font-semibold text-5xl ">Our Various Handsoff</p>
-      <p className="text-lg text-center">Here's the glimpse to some of our previous works</p>
+      <p className="text-lg text-center">Here&apos;s the glimpse to some of our previous works</p>
         <div className="flex my-8 h-98 justify-center w-full p-2  mx-auto gap-x-10 z-10">
           {staticStories.map((story, index) => (
             <div
