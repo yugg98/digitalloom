@@ -228,7 +228,7 @@ export default function CarouselDesktop() {
 												window.open(data[activeIndex2].link, "_blank")
 											}
 										>
-											Read More
+											Know More
 										</div>
 									</div>
 								</div>

@@ -1,8 +1,6 @@
 const stats = [
-  { label: "Founded", value: "2021" },
-  { label: "Employees", value: "37" },
-  { label: "Countries", value: "12" },
-  { label: "Raised", value: "$25M" },
+  { label: "Underpaid employees", value: "30+" },
+  { label: "Placated clients  ", value: "50+" },
 ];
 
 export default function Stats() {
@@ -32,9 +30,7 @@ export default function Stats() {
                 With a proven track record, we&apos;ve successfully developed
                 high-performance teams.
               </p>
-            </div>
-            <div>
-              <p>
+              <p className="mt-8">
               <span className="text-blue-400 font-semibold text-xl">Your Partner for Digital Triumph <br/></span>
 
                 As we launch The Digital Loom, we invite you to explore the
@@ -44,6 +40,24 @@ export default function Stats() {
                 business not only survives but thrives in the competitive
                 digital landscape.
               </p>
+            </div>
+            <div>
+              
+              <dl className="w-64 space-y-8 xl:w-80">
+                  {stats.map((stat) => (
+                    <div
+                      key={stat.label}
+                      className="flex flex-col-reverse  justify-center items-center gap-y-4"
+                    >
+                      <dt className="text-base leading-7 text-gray-200">
+                        {stat.label}
+                      </dt>
+                      <dd className="text-5xl font-semibold tracking-tight text-white">
+                        {stat.value}
+                      </dd>
+                    </div>
+                  ))}
+                </dl>
             </div>
           </div>
         </div>

@@ -1,14 +1,12 @@
 import { CheckIcon } from '@heroicons/react/20/solid'
+import { ArrowRightCircleIcon } from '@heroicons/react/24/outline'
 
 const features = [
   {
     "name": "Web Design",
     "description": "Spearheading innovation in the Web3 realm, we lead the charge in transforming digital landscapes. Our designers blend creativity with functionality to ensure a seamless and visually stunning online presence."
   },
-  {
-    "name": "E-commerce Development",
-    "description": "Robust and secure e-commerce platforms designed to elevate your online business. From user-friendly interfaces to secure payment gateways, we create tailored solutions for a thriving digital storefront."
-  },
+  
   {
     "name": "Mobile App Development",
     "description": "Propel your digital influence to new heights through avant-garde mobile applications, meticulously tailored for both iOS and Android platforms. Our adept team not only ensures strict adherence to industry standards but transcends them, promising a seamlessly unparalleled user experience."
@@ -38,19 +36,18 @@ export default function Tech() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           <div>
-            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Web Development</p>
+            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl flex items-center  gap-x-2">Web Development <ArrowRightCircleIcon className='w-8 h-8 text-blue-600'/> </p>
             <p className="mt-6 text-base leading-7 text-gray-600">
             Tailored website solutions crafted for optimal performance, user experience, and scalability. Our expert developers bring your digital vision to life with precision and innovation.            </p>
           </div>
           <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:gap-y-16">
             {features.map((feature) => (
-              <div key={feature.name} className="relative pl-9">
-                <dt className="font-semibold text-gray-900">
-                  <CheckIcon className="absolute left-0 top-1 h-5 w-5 text-indigo-500" aria-hidden="true" />
-                  {feature.name}
-                </dt>
-                <dd className="mt-2">{feature.description}</dd>
-              </div>
+              <div key={feature.name} className="relative hover:scale-95 bg-gray-300 p-4 rounded-xl pl-9">
+              <dt className="font-semibold text-gray-900">
+                {feature.name}
+              </dt>
+              <dd className="mt-2">{feature.description}</dd>
+            </div>
             ))}
           </dl>
         </div>
@@ -87,18 +84,17 @@ const services = [
 
 export function Managedit() {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-white py-24  sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           <div>
-            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Workflows Solutions</p>
+            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-3xl flex items-center justify-center gap-x-2">Workflows Solutions <ArrowRightCircleIcon className='w-8 h-8 text-blue-600'/></p>
             
           </div>
           <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:gap-y-16">
             {services.map((feature) => (
-              <div key={feature.name} className="relative pl-9">
+              <div key={feature.name} className="relative hover:scale-95 bg-gray-300 p-4 rounded-xl pl-9">
                 <dt className="font-semibold text-gray-900">
-                  <CheckIcon className="absolute left-0 top-1 h-5 w-5 text-indigo-500" aria-hidden="true" />
                   {feature.name}
                 </dt>
                 <dd className="mt-2">{feature.description}</dd>
@@ -118,12 +114,12 @@ export function industryexpertise() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           <div>
-            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Workflows Solutions</p>
+            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl flex items-center justify-center gap-x-2">Workflows Solutions <ArrowRightCircleIcon className='w-8 h-8 text-blue-600'/></p>
             
           </div>
-          <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:gap-y-16">
+          <dl className="col-span-2  grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:gap-y-16">
             {services.map((feature) => (
-              <div key={feature.name} className="relative pl-9">
+              <div key={feature.name} className="relative  pl-9">
                 <dt className="font-semibold text-gray-900">
                   <CheckIcon className="absolute left-0 top-1 h-5 w-5 text-indigo-500" aria-hidden="true" />
                   {feature.name}

@@ -34,7 +34,7 @@ export default function Example() {
                   {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
                   <Link
                     href="/"
-                    className="inline-flex items-center  px-1 pt-1 text-sm font-medium text-gray-900"
+                    className="inline-flex items-center  px-1 pt-1 text-sm font-medium text-gray-500"
                   >
                     Home
                   </Link>

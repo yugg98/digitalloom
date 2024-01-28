@@ -32,7 +32,7 @@ export default function About() {
                 landscape.
               </p>
               <div className="mt-0">
-               <Button/>
+              <Button/>
               </div>
             </div>
           </div>

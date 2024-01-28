@@ -14,7 +14,7 @@ const features = [
     icon: LockClosedIcon,
   },
   {
-    name: 'Inclusive and Diverse Workforce',
+    name: 'Transparency and Integrity in Action',
     description:
       'Cultivate a tapestry of talent, embracing the richness that diversity brings to our collective journey.""Forge an inclusive workforce, weaving together a diverse mosaic of perspectives and experiences.',
     icon: ArrowPathIcon,

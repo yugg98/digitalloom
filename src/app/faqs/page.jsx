@@ -1,4 +1,8 @@
+"use client"
 import Cta from "@/components/Cta";
+import { Disclosure } from "@headlessui/react";
+import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
+import { useState } from "react";
 
 const faqs = [
    
@@ -86,6 +90,8 @@ const faqs = [
   
   
   export default function Faqs() {
+    const [hoveredIndex, setHoveredIndex] = useState(null);
+
     return (
       <div className="bg-white">
         <div className="mt-20">
@@ -94,16 +100,35 @@ const faqs = [
           </div>
         <div className="mx-auto max-w-7xl divide-y divide-gray-900/10 px-6  sm:py-8 lg:px-8 ">
         
-          <dl className="mt-10 space-y-8 divide-y divide-gray-900/10">
-            {faqs.map((faq) => (
-              <div key={faq.id} className="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
-                <dt className="text-base font-semibold leading-7 text-gray-900 lg:col-span-5">{faq.question}</dt>
-                <dd className="mt-4 lg:col-span-7 lg:mt-0">
-                  <p className="text-base leading-7 text-gray-600">{faq.answer}</p>
-                </dd>
-              </div>
-            ))}
-          </dl>
+        <dl className="mt-10 space-y-6 divide-y divide-gray-900/10 max-w-4xl mx-auto">
+        {faqs.map((faq, index) => (
+          <Disclosure as="div" key={faq.id} className="pt-6" 
+            onMouseEnter={() => setHoveredIndex(index)}
+            onMouseLeave={() => setHoveredIndex(null)}>
+            {({ open }) => (
+              <>
+                <dt>
+                  <Disclosure.Button className={`flex w-full items-start justify-between text-left `}>
+                    <span className="text-base font-semibold leading-7">{faq.question}</span>
+                    <span className="ml-6 flex h-7 items-center">
+                      {open || hoveredIndex === index ? (
+                        <MinusSmallIcon className="h-6 w-6" aria-hidden="true" />
+                      ) : (
+                        <PlusSmallIcon className="h-6 w-6" aria-hidden="true" />
+                      )}
+                    </span>
+                  </Disclosure.Button>
+                </dt>
+                {(open || hoveredIndex === index) && (
+                  <Disclosure.Panel as="dd" className="mt-2 pr-12 bg-gray-300 p-4 rounded-xl">
+                    <p className="text-base leading-7 text-gray-600">{faq.answer}</p>
+                  </Disclosure.Panel>
+                )}
+              </>
+            )}
+          </Disclosure>
+        ))}
+      </dl>
         </div>
         <Cta/>
       </div>

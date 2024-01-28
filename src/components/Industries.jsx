@@ -70,14 +70,11 @@ const Industries = () => {
           <div className="flex flex-col justify-center px-10 my-12">
             <div>
               <h2 className="text-4xl font-lg font-semibold tracking-tight text-black sm:text-5xl">
-                Delivering industry-focused legal solutions
+              Customized Blockchain Solutions: Tailoring Innovation to Industry-Specific Need
               </h2>
 
               <p className="md:text-md mt-4 text-gray-600">
-                Our team of legal experts collaborates with clients to
-                understand their roadblocks and objectives, enabling us to
-                develop legal solutions that are efficient and scalable for
-                diverse industries.
+              Our team specializes in delivering blockchain solutions that are specifically designed to meet the unique challenges and goals of each industry. By working closely with our clients, we gain a deep understanding of their specific needs, enabling us to develop scalable and efficient blockchain applications that are customized for each sector.
               </p>
             </div>
             <div>

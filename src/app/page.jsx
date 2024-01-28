@@ -3,6 +3,7 @@ import Button from "@/components/Button";
 import Cta, { Ctar } from "@/components/Cta";
 import Hero from "@/components/Hero";
 import Industries from "@/components/Industries";
+import Ourclients from "@/components/Ourclients";
 import Steps from "@/components/Steps";
 import Story from "@/components/Story";
 import Values from "@/components/Values";
@@ -17,10 +18,10 @@ export default function Home() {
     <Carousel/>
     <Story/>
     <About/>
+    <Ourclients/>
     <Steps/>
     <Ctar/>
     <Industries/>
-    <Values/>
     <Cta/>
   </main>
   );
