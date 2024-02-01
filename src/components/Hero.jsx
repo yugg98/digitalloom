@@ -11,10 +11,11 @@ export default function Hero() {
                 Digital Loom
               </p>
               <h1 class="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl ">
-                Ideate Innovate Impact: Our Expertise, Your Outcomes!
+              Empowering Your IT Journey
               </h1>
               <p class="mt-4 text-base text-black lg:mt-8 sm:text-xl">
-                Grow your career fast with right mentor.
+              Comprehensive Staffing & Services Solutions
+
               </p>
 
               <a

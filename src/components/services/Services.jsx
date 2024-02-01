@@ -9,7 +9,8 @@ export default function Carousel() {
 		return (
 			<div className=" mb-4">
                 <div>
-                    <h1 className="text-4xl font-semibold text-center">Our Services</h1>
+                    <h1 className="text-4xl font-semibold text-center">Our Competitive Edge
+</h1>
                 </div>
 				<CarouselDesktop />
 			</div>
@@ -19,7 +20,8 @@ export default function Carousel() {
 		return (
 			<div className="bg-black mb-4">
                  <div>
-                    <h1 className="text-4xl font-semibold text-center">Our Services</h1>
+                    <h1 className="text-4xl font-semibold text-center">Our Competitive Edge
+</h1>
                 </div>
 				<CarouselTablet />
 			</div>
