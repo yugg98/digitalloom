@@ -17,7 +17,6 @@ export default function Home() {
     <Hero/>
     <Carousel/>
     <Story/>
-    <About/>
     <Ourclients/>
     <Steps/>
     <Ctar/>

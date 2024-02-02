@@ -58,10 +58,12 @@ export default function Example() {
               <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
                 <div className="relative w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
                   <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-                  Decades of Devotion, A Heritage of Digital Distinction
+                  Get to Know Us
+
                   </h1>
-                  <p className="mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-                  Embark on a transformative journey with The Digital Loom and discover how our innovative offerings can elevate your business to unprecedented heights. Join us in reshaping the future of digital success and ensuring your triumph in an ever-evolving paradigm.
+                  <p className="mt-6 text-sm  text-gray-600 sm:max-w-md lg:max-w-none">
+                  The Digital Loom Inc. has a competitive advantage in IT Staffing and Services, leading the charge in digital transformation and enterprise reinvention. We deliver end-to-end solutions par excellence to clients across diverse sectors. Our dynamic suite of cutting-edge solutions, rooted in Generative AI, Machine Learning, Blockchain technology, Cloud & Infrastructure, Data & Analytics, Digital & Product engineering, App Modernization, and Enterprise Cloud Integration, sets us apart from other companies and makes us uniquely positioned to cater to traditional enterprise systems and modern cloud innovation. Headquartered in Massachusetts, USA, our dedicated workforce of professionals serves an impressive client base, expertly guiding them through their transformative digital journeys.
+
                   </p>
                   <div className="mt-10 flex items-center gap-x-6">
                     <a
