@@ -6,7 +6,7 @@ const Steps = () => {
       <div className=" my-20">
         <div className="grid my-8 md:grid-cols-2  md:gap-x-10 justify-center items-center">
           <div className="md:order-2 mx-auto">
-            <img src="/vision.svg" alt="" srcset="" />
+            <img src="/vision.jpg"  className="rounded-lg max-w-sm" alt="" srcset="" />
           </div>
           <div className="md:order-1">
             <p className="md:text-4xl text-3xl font-semibold">Vision</p>
@@ -19,7 +19,7 @@ const Steps = () => {
         </div>
         <div className="grid my-8 md:grid-cols-2 gap-8 md:gap-x-4 justify-center items-center">
           <div className="mx-auto">
-            <img src="/mission.svg" alt="" srcset="" />
+            <img src="/mission.jpg" className="rounded-lg max-w-sm" alt="" srcset="" />
           </div>
           <div className="">
             <p className="md:text-4xl text-3xl font-semibold"> Mission</p>

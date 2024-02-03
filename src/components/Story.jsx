@@ -94,12 +94,12 @@ export default function Story() {
         <p className="text-lg text-center">
           User-centric products prioritizing user experience
         </p>
-        <div className="flex my-8  justify-center p-2  mx-auto gap-x-10 z-10">
+        <div className="flex my-8  justify-center p-2  mx-auto gap-x-20 z-10">
           <Marquee>
           {staticStories.map((story, index) => (
             <div
               key={story.userId}
-              className={`w-auto aspect-video h-36 bg-cover bg-center rounded-lg  cursor-pointer mx-1 border-2 ${
+              className={`w-auto aspect-video  h-36 bg-cover bg-center rounded-lg  cursor-pointer mx-4 border-2 ${
                 index === currentStoryIndex
                   ? "border-blue-500"
                   : "border-transparent"

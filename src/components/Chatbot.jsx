@@ -95,9 +95,12 @@ const Chatbot = () => {
   };
 
   return (
-    <div className="fixed z-[9999] bottom-6 max-w-full right-6 md:bottom-10 md:right-8 bg-[#151A1E] w-16 h-16 rounded-full drop-shadow-lg flex justify-center items-center text-white  hover:drop-shadow-2xl  transition-all ease-in-out duration-150">
+    <div className="fixed z-[9999] bottom-6 max-w-full right-6 md:bottom-10 md:right-8 bg-white w-16 h-16 rounded-full drop-shadow-lg flex justify-center items-center text-white  hover:drop-shadow-2xl  transition-all ease-in-out duration-150">
       {clicked ? (
-        <XMarkIcon onClick={() => setClicked(!clicked)} className="w-8 h-8" />
+        <XMarkIcon
+          onClick={() => setClicked(!clicked)}
+          className="w-8 text-black h-8"
+        />
       ) : (
         <img
           src="/logo.svg"
@@ -108,14 +111,16 @@ const Chatbot = () => {
       {clicked ? (
         <div className="fixed z-[9999] overflow-hidden h-[70vh] md:w-[400px] w-[300px]    bottom-6 right-[-24px] md:bottom-10 md:right-8 bg-white rounded-lg drop-shadow-lg   text-white   hover:drop-shadow-2xl  transition-all ease-in-out duration-150">
           <div className="bg-blue-600 h-20 w-full flex px-4 items-center gap-x-2">
-            <img
-              src="/logo.svg"
-              onClick={() => setClicked(!clicked)}
-              className="w-12 h-12"
-            />
+            <div className=" bg-white">
+              <img
+                src="/logo.svg"
+                onClick={() => setClicked(!clicked)}
+                className="w-12 h-12"
+              />
+            </div>
             <div>
-              <p className="text-xl font-semibold">Threeway Studio</p>
-              <p className="text-md ">100+ Global Clientele Achieved!</p>
+              <p className="text-xl font-semibold">Digital Loom</p>
+              <p className="text-md ">Empowering Your IT Journey</p>
             </div>
           </div>
           <div
@@ -131,7 +136,7 @@ const Chatbot = () => {
               >
                 <p
                   className={`${
-                    message.sender === "user" ? "bg-green-500" : "bg-[#6C36AB]"
+                    message.sender === "user" ? "bg-[#41C9FF]" : "bg-blue-600"
                   } p-4 py-2 rounded-md text-lg text-white max-w-xs`}
                 >
                   {message.text}
@@ -157,7 +162,7 @@ const Chatbot = () => {
             />
             <button
               onClick={() => addMessage(message, "user")}
-              className="bg-[#6C36AB] rounded-full p-2"
+              className="bg-[#0874F1] rounded-full p-2"
             >
               <PaperAirplaneIcon className="w-8 h-8 text-white rounded-full" />
             </button>
