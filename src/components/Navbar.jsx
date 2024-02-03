@@ -19,17 +19,23 @@ const services = [
   { name: "Cloud Migration", href: "/services/cloud-migration" },
   { name: "Consulting and Strategy", href: "/services/consulting-strategy" },
   { name: "E-commerce Solutions", href: "/services/ecommerce-solutions" },
-  { name: "Business Process Optimization", href: "/services/business-process-optimization" },
-  { name: "Customer Experience (CX) Enhancement", href: "/services/customer-experience-enhancement" },
+  {
+    name: "Business Process Optimization",
+    href: "/services/business-process-optimization",
+  },
+  {
+    name: "Customer Experience (CX) Enhancement",
+    href: "/services/customer-experience-enhancement",
+  },
 ];
 
 export default function Example() {
   const [isOpen, setIsOpen] = useState(false);
 
-// Function to close the Popover
-const closePopover = () => {
-  setIsOpen(false);
-};
+  // Function to close the Popover
+  const closePopover = () => {
+    setIsOpen(false);
+  };
   return (
     <Disclosure as="nav" className="bg-white shadow">
       {({ open }) => (
@@ -61,7 +67,11 @@ const closePopover = () => {
                 >
                   About us
                 </Link>
-                <Popover  open={isOpen} onClose={closePopover} className="relative flex justify-center outline-none">
+                <Popover
+                  open={isOpen}
+                  onClose={closePopover}
+                  className="relative flex justify-center outline-none"
+                >
                   <Popover.Button className="inline-flex outline-none items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">
                     Services
                     <ChevronDownIcon
@@ -122,27 +132,43 @@ const closePopover = () => {
             </div>
           </div>
 
-          <Disclosure.Panel className="lg:hidden w-full bg-white">
-            <div className="space-y-1 pb-3 pt-2">
-              {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800" */}
-              <Link
-                href="/"
-                className="block border-l-4 border-indigo-500 bg-indigo-50 py-2 pl-3 pr-4 text-base font-medium text-indigo-700"
-              >
-                Home
-              </Link>
-              <Link
-                href="/aboutus"
-                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-800"
-              >
-                About us
-              </Link>
-              <Link
-                href="/ourservices"
-                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-800"
-              >
-                Services
-              </Link>
+          <Disclosure.Panel className="lg:hidden absolute z-[200] w-full bg-white">
+            <div className="space-y-1 pb-3 pt-2 px-4">
+              <Disclosure.Button as="a" href="/aboutus" className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-black ">
+                  Home
+              </Disclosure.Button>
+              <Disclosure.Button as="a" href="/aboutus" className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-black ">
+                
+                  About us
+              </Disclosure.Button>
+              <Disclosure as="div" >
+                {({ open }) => (
+                  <>
+                    <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-black ">
+                      Services
+                      <ChevronDownIcon
+                        className={classNames(
+                          open ? "rotate-180" : "",
+                          "h-5 w-5 flex-none"
+                        )}
+                        aria-hidden="true"
+                      />
+                    </Disclosure.Button>
+                    <Disclosure.Panel className="mt-2 space-y-2">
+                      {services.map((item) => (
+                        <Disclosure.Button
+                          key={item.name}
+                          as="a"
+                          href={item.href}
+                          className="block py-2 pl-6 pr-3 text-black text-sm font-semibold leading-7  rounded-lg "
+                        >
+                          {item.name}
+                        </Disclosure.Button>
+                      ))}
+                    </Disclosure.Panel>
+                  </>
+                )}
+              </Disclosure>
             </div>
           </Disclosure.Panel>
         </>

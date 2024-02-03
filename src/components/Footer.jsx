@@ -3,6 +3,8 @@ const navigation = {
     { name: "Marketing", href: "/ourservices/marketing" },
     { name: "Design", href: "/ourservices/design" },
     { name: "Engineering", href: "/ourservices/development" },
+    { name: "Faqs", href: "/faqs" },
+
   ],
   support: [
     { name: "Pricing", href: "#" },

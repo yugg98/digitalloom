@@ -67,7 +67,7 @@ const Industries = () => {
             </div>
           </div>
 
-          <div className="flex flex-col justify-center px-10 my-12">
+          <div className="flex flex-col justify-center  my-12">
             <div>
               <h2 className="text-4xl font-lg font-semibold tracking-tight text-black sm:text-5xl">
               Customized Blockchain Solutions: Tailoring Innovation to Industry-Specific Need
