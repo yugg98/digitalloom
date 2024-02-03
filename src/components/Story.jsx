@@ -7,6 +7,7 @@ import {
   XCircleIcon,
 } from "@heroicons/react/24/outline";
 import React, { useRef, useState } from "react";
+import Marquee from "react-fast-marquee";
 
 const staticStories = [
   {
@@ -94,6 +95,7 @@ export default function Story() {
           User-centric products prioritizing user experience
         </p>
         <div className="flex my-8  justify-center p-2  mx-auto gap-x-10 z-10">
+          <Marquee>
           {staticStories.map((story, index) => (
             <div
               key={story.userId}
@@ -106,6 +108,7 @@ export default function Story() {
               style={{ backgroundImage: `url(${story.images[0]})` }}
             ></div>
           ))}
+          </Marquee>
         </div>
       </div>
 
