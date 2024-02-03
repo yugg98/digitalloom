@@ -15,8 +15,12 @@ export default function Home() {
   return (
   <main>
     <Hero/>
+    <div className="mt-16">
     <Carousel/>
+    </div>
+    <div className="mb-24">
     <Story/>
+    </div>
     <Ourclients/>
     <Steps/>
     <Ctar/>

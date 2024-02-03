@@ -160,7 +160,7 @@ export default function CarouselDesktop() {
 	];
 
 	return (
-		<div className="py-12">
+		<div className="pt-12">
 			
 
 			<div className="hidden lg:flex h-[75vh] max-h-screen">
