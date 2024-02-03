@@ -1,5 +1,5 @@
 "use client";
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import { Disclosure, Menu, Popover, Transition } from "@headlessui/react";
 import { MagnifyingGlassIcon } from "@heroicons/react/20/solid";
 import {
@@ -24,6 +24,12 @@ const services = [
 ];
 
 export default function Example() {
+  const [isOpen, setIsOpen] = useState(false);
+
+// Function to close the Popover
+const closePopover = () => {
+  setIsOpen(false);
+};
   return (
     <Disclosure as="nav" className="bg-white shadow">
       {({ open }) => (
@@ -55,7 +61,7 @@ export default function Example() {
                 >
                   About us
                 </Link>
-                <Popover className="relative flex justify-center outline-none">
+                <Popover  open={isOpen} onClose={closePopover} className="relative flex justify-center outline-none">
                   <Popover.Button className="inline-flex outline-none items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">
                     Services
                     <ChevronDownIcon
@@ -75,19 +81,19 @@ export default function Example() {
                   >
                     <Popover.Panel className="absolute z-[9999] w-56 p-2 mt-3 bg-gray-900 shadow-lg -left-8 top-full rounded-xl ring-1 ring-gray-900/5">
                       {services.map((item) => (
-                        <Link
+                        <a
                           key={item.name}
                           href={item.href}
                           className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
                         >
                           {item.name}
-                        </Link>
+                        </a>
                       ))}
                     </Popover.Panel>
                   </Transition>
                 </Popover>
                 <Link
-                  href="#clients"
+                  href="/#clients"
                   className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
                 >
                   Our Clients

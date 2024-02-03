@@ -24,10 +24,10 @@ export default function Stats() {
                 stepping in as consultants and advisors when needed.
               </p>
               <p className="mt-8">
-                Within our organization, we've woven a culture rooted in a deep
+                Within our organization, we&apos;ve woven a culture rooted in a deep
                 passion for technology. Happy employees are the cornerstone of
                 productivity. Our team comprises individuals who love what they
-                do, and we've designed our work environment to foster this
+                do, and we&apos;ve designed our work environment to foster this
                 enthusiasm. By nurturing a healthy work-life balance, we ensure
                 our employees are highly productive and get ample time for
                 rejuvenation with themselves and their families. We firmly

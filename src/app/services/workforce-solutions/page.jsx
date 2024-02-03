@@ -1,15 +1,13 @@
-"use client"
-import { useState } from 'react'
-import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+"use client";
+import { useState } from "react";
+import { Dialog } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 export default function Example() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <div className="bg-white">
-    
-
       <div className="relative">
         <div className="mx-auto max-w-7xl">
           <div className="relative z-10 pt-14 lg:w-full lg:max-w-2xl">
@@ -24,17 +22,37 @@ export default function Example() {
 
             <div className="relative px-6 py-32 sm:py-24 lg:px-8 lg:pr-0">
               <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
-               
                 <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                Workforce Solutions
-
+                  Workforce Solutions
                 </h1>
                 <p className="mt-6 text-sm text-gray-600">
-                Organizations strive to optimize resources, reduce overhead costs, and enhance employee efficiency in today's dynamic business landscape. Our cutting-edge workplace IT staffing solutions are tailored to meet these challenges head-on, offering a comprehensive institutional process that goes beyond traditional approaches.<br/><br/>
-Navigating the complexities of recruitment is a critical aspect of organizational growth. We provide strategic staffing solutions, providing top-tier talent that aligns with your business requirements and long-term goals.<br/><br/>
-Our staffing solutions provide organizations with high-performing individuals who are suitable for the job and will get the work done! Our placements are high on employee efficiency, performance metrics, and overall well-being. <br/><br/>
-By choosing us as your staffing partner, you embark on a journey of transformation where workplace challenges turn into opportunities. Our holistic approach to workforce solutions reflects our commitment to your success. We invite you to explore the difference our expertise can make for your organization. Elevate your business with us — where talent meets efficiency.
-
+                  Organizations strive to optimize resources, reduce overhead
+                  costs, and enhance employee efficiency in today&apos;s dynamic
+                  business landscape. Our cutting-edge workplace IT staffing
+                  solutions are tailored to meet these challenges head-on,
+                  offering a comprehensive institutional process that goes
+                  beyond traditional approaches.
+                  <br />
+                  <br />
+                  Navigating the complexities of recruitment is a critical
+                  aspect of organizational growth. We provide strategic staffing
+                  solutions, providing top-tier talent that aligns with your
+                  business requirements and long-term goals.
+                  <br />
+                  <br />
+                  Our staffing solutions provide organizations with
+                  high-performing individuals who are suitable for the job and
+                  will get the work done! Our placements are high on employee
+                  efficiency, performance metrics, and overall well-being.{" "}
+                  <br />
+                  <br />
+                  By choosing us as your staffing partner, you embark on a
+                  journey of transformation where workplace challenges turn into
+                  opportunities. Our holistic approach to workforce solutions
+                  reflects our commitment to your success. We invite you to
+                  explore the difference our expertise can make for your
+                  organization. Elevate your business with us — where talent
+                  meets efficiency.
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
                   <a
@@ -43,7 +61,10 @@ By choosing us as your staffing partner, you embark on a journey of transformati
                   >
                     Get started
                   </a>
-                  <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                  <a
+                    href="#"
+                    className="text-sm font-semibold leading-6 text-gray-900"
+                  >
                     Learn more <span aria-hidden="true">→</span>
                   </a>
                 </div>
@@ -60,5 +81,5 @@ By choosing us as your staffing partner, you embark on a journey of transformati
         </div>
       </div>
     </div>
-  )
+  );
 }
