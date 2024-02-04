@@ -8,7 +8,7 @@ const Steps = () => {
           <div className="md:order-2 mx-auto">
             <img
               src="/vision.jpg"
-              className="rounded-lg w-sm"
+              className="rounded-lg max-w-sm"
               alt=""
               srcset=""
             />
@@ -32,7 +32,7 @@ const Steps = () => {
           <div className="mx-auto">
             <img
               src="/mission.jpg"
-              className="rounded-lg w-sm"
+              className="rounded-lg max-w-sm"
               alt=""
               srcset=""
             />
