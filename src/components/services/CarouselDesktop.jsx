@@ -65,6 +65,8 @@ export default function CarouselDesktop() {
 		"/insight8.png",
 		"/insight9.png",
 		"/insight10.png",
+		"/Ai.jpg",
+
 	];
 	const data = [
 		{
@@ -146,7 +148,7 @@ export default function CarouselDesktop() {
 			image: "/insight10.png",
 			topic: "Business Use Cases",
 			content:
-				"Delve into the critical topics of privacy and digital infrastructure, understanding the challenges and opportunities presented by emerging technologies in a connected world.",
+				"CWA Development | UI/UX Design | DevOps | CMS | Database Design & Mgmt | Full Stack Consulting | Security Audits & Implementation | Version Control Systems (e.g., Git) | Third-party API Integration",
 			link: "https://www.techtarget.com/whatis/feature/5-business-use-cases-for-NFTs",
 		},
 		{
@@ -155,7 +157,16 @@ export default function CarouselDesktop() {
 			image: "/insight10.png",
 			topic: "Business Use Cases",
 			content:
-				"Delve into the critical topics of privacy and digital infrastructure, understanding the challenges and opportunities presented by emerging technologies in a connected world.",
+				"Smart Contracts | Dapps | Cryptocurrency | Tokenization | Private Blockchain & Hyperledger | Ethereum | Off-chain Data Solutions | Blockchain Security Audits | NFTs | Healthcare Blockchain Solutions ",
+			link: "https://www.techtarget.com/whatis/feature/5-business-use-cases-for-NFTs",
+		},
+		{
+			id: 11,
+			heading: "Ai",
+			image: "/insight10.png",
+			topic: "Business Use Cases",
+			content:
+				"Data Collection & Preprocessing | Model Training | Algorithm Selection | Integration with Apps | Deployment and Maintenance | NLP ",
 			link: "https://www.techtarget.com/whatis/feature/5-business-use-cases-for-NFTs",
 		}
 	];
