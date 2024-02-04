@@ -315,14 +315,14 @@ export default function CarouselDesktop() {
 										<p className="text-blue-700 text-[14px] font-[400]">
 											{data[activeIndex].content}
 										</p>
-										<div
+										{/* <div
 											className="underline underline-offset-4 text-black"
 											onClick={() =>
 												window.open(data[activeIndex].link, "_blank")
 											}
 										>
 											Read More
-										</div>
+										</div> */}
 									</div>
 								</div>
 							)}
