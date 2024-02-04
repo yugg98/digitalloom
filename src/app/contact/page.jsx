@@ -13,7 +13,7 @@ export default function Contactus() {
   const router = useRouter();
   const [error, setError] = useState("");
   const [data, setData] = useState({
-    firstname: "",
+    fullname: "",
     email: "",
     lastname: "",
     phonenumber: "",
@@ -141,12 +141,13 @@ export default function Contactus() {
               <div>
                 <div className="mt-5">
                   <input
-                    className="border-b pb-1 w-full outline-none"
                     type="text"
-                    name="lastname"
-                    id="last-name"
+                    name="fullname"
+                    id="full-name"
+                    className="min-w-0 w-full text-black flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10 sm:text-sm"
+
                     onChange={handleChange}
-                    value={data.lastname}
+                    value={data.fullname}
                     placeholder="Full Name"
                     autoComplete="family-name"
                   />
@@ -154,9 +155,10 @@ export default function Contactus() {
                 <div className="sm:col-span-2">
                   <div className="mt-8">
                     <input
-                      className="border-b w-full pb-1 outline-none"
                       type="email"
                       name="email"
+                      className="min-w-0 w-full text-black flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10 sm:text-sm"
+
                       id="email"
                       onChange={handleChange}
                       value={data.email}
@@ -168,7 +170,7 @@ export default function Contactus() {
                 <div className="sm:col-span-2">
                   <div className="mt-8">
                     <input
-                      className="border-b w-full pb-1 outline-none"
+                      className="min-w-0 w-full text-black flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10 sm:text-sm"
                       type="tel"
                       name="phonenumber"
                       id="phone-number"
@@ -186,7 +188,7 @@ export default function Contactus() {
                       id="message"
                       placeholder="Message"
                       rows={4}
-                      className="w-full border outline-none p-2"
+                      className="min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 w-full  dark:focus:ring-teal-400/10 sm:text-sm"
                       variant="underlined"
                       defaultValue={""}
                     />
