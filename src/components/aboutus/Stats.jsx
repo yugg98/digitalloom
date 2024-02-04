@@ -1,6 +1,8 @@
 const stats = [
   { label: "Underpaid employees", value: "30+" },
   { label: "Placated clients  ", value: "50+" },
+  { label: "Rating ", value: "4.9/5" },
+
 ];
 
 export default function Stats() {
