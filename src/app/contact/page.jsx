@@ -74,9 +74,9 @@ export default function Contactus() {
                   />
                 </dt>
                 <dd>
-                  11B, first floor, Shahpur Jat,
-                  <br /> Near UCO Bank,
-                  <br /> South Delhi - 110049
+                2 Brady Way Westford
+                  <br /> 2 Brady Way,
+                  <br /> Westford MA 01886
                 </dd>
               </div>
               <div className="flex gap-x-4">

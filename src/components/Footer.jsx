@@ -22,7 +22,7 @@ const navigation = {
     },
   ],
   legal: [
-    { name: "Contact us", href: "/contactus" },
+    { name: "Contact us", href: "/contact" },
     { name: "Privacy Policy", href: "#" },
     { name: "Terms of service", href: "#" },
   ],

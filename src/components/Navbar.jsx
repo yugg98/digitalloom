@@ -14,15 +14,16 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 const services = [
+  {
+    name: "Business Process Optimization",
+    href: "/services/business-process-optimization",
+  },
   { name: "Workforce Solutions", href: "/services/workforce-solutions" },
   { name: "Managed IT Services", href: "/services/managed-it-services" },
   { name: "Cloud Migration", href: "/services/cloud-migration" },
   { name: "Consulting and Strategy", href: "/services/consulting-strategy" },
   { name: "E-commerce Solutions", href: "/services/ecommerce-solutions" },
-  {
-    name: "Business Process Optimization",
-    href: "/services/business-process-optimization",
-  },
+  
   {
     name: "Customer Experience (CX) Enhancement",
     href: "/services/customer-experience-enhancement",

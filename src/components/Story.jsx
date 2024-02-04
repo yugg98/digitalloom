@@ -90,7 +90,7 @@ export default function Story() {
     <div className="relative">
       {/* Story Circles */}
       <div>
-        <p className="text-center font-semibold text-5xl ">Products</p>
+        <p className="text-center font-semibold text-5xl ">Portfolio</p>
         <p className="text-lg text-center">
           User-centric products prioritizing user experience
         </p>

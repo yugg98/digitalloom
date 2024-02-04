@@ -10,7 +10,7 @@ export default function Hero() {
               Empowering Your IT Journey
               </h1>
               <p class="mt-4 text-base text-white lg:mt-8 sm:text-xl">
-              Comprehensive Staffing & Services Solutions
+              Comprehensive Talent & Services Solutions
 
               </p>
 
