@@ -1,10 +1,11 @@
+import Link from "next/link";
 import React from "react";
 
 const Button = () => {
   return (
     <div>
-      <a
-        href=""
+      <Link
+        href="/contact"
         title=""
         class="inline-flex items-center text-white px-6 py-4 mt-8 font-semibold transition-all duration-200 bg-[#0874F1] rounded-lg lg:mt-6 hover:bg-blue-600 focus:bg-blue-400"
         role="button"
@@ -24,7 +25,7 @@ const Button = () => {
             d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
           />
         </svg>
-      </a>
+      </Link>
     </div>
   );
 };

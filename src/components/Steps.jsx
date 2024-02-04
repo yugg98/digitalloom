@@ -15,7 +15,6 @@ const Steps = () => {
           </div>
           <div className="md:order-1">
             <p className="md:text-4xl text-3xl mt-6 font-semibold">Vision</p>
-            <img src="/line.svg" className="my-4" alt="" srcset="" />
             <p className="text-gray-500 md:text-md text-base mt-2">
               The Digital Loom Inc. is to be the unrivaled enabler of growth for
               organizations, regardless of size, by offering top-tier IT
@@ -40,7 +39,6 @@ const Steps = () => {
           </div>
           <div className="">
             <p className="md:text-4xl text-3xl font-semibold mt-6"> Mission</p>
-            <img src="/line.svg" className="my-4" alt="" srcset="" />
             <p className="text-gray-500 md:text-md text-base mt-2">
               We aim to provide meticulously curated IT staffing solutions,
               delivering ready and developed talent perfectly suited for diverse
