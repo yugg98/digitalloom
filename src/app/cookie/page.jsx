@@ -8,7 +8,7 @@ const page = () => {
   <p>Last Updated: Jan 30, 2024</p>
   <p>By using the website located at  https://www.thedigitalloom.com/, you accept our use of cookies as outlined in this Cookie Policy.</p>
 
-  <h2>About Threeway Studio</h2>
+  <h2>About Digital Loom</h2>
   <p>Threeway Studio, specializing in Growth as a Service (GaaS) and Blockchain as a Service (BaaS), is committed to your privacy and aims to provide a transparent and user-friendly experience.</p>
 
   <h2>What are Cookies?</h2>
