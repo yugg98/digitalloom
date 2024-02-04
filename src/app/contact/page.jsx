@@ -92,7 +92,7 @@ export default function Contactus() {
                     className="hover:text-gray-900"
                     href="tel:+1 (555) 234-5678"
                   >
-                    +91 99104 55478
+                   +1 (978) 893-6975
                   </a>
                 </dd>
               </div>
@@ -107,9 +107,9 @@ export default function Contactus() {
                 <dd>
                   <a
                     className="hover:text-gray-900"
-                    href="mailto:hello@example.com"
+                    href="mailto:contact@thedigitalloom.com"
                   >
-                    contact@kaaresaccounting.com
+                    contact@thedigitalloom.com
                   </a>
                 </dd>
               </div>

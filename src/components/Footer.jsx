@@ -9,6 +9,8 @@ const navigation = {
   ],
   company: [
     { name: "About", href: "/aboutus" },
+    { name: "FAQs", href: "/faqs" },
+
     { name: "E-commerce Solutions", href: "/services/ecommerce-solutions" },
     {
       name: "Business Process Optimization",

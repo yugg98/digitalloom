@@ -134,7 +134,7 @@ export default function Example() {
 
           <Disclosure.Panel className="lg:hidden absolute z-[200] w-full bg-white">
             <div className="space-y-1 pb-3 pt-2 px-4">
-              <Disclosure.Button as="a" href="/aboutus" className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-black ">
+              <Disclosure.Button as="a" href="/" className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-black ">
                   Home
               </Disclosure.Button>
               <Disclosure.Button as="a" href="/aboutus" className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-black ">
@@ -169,6 +169,10 @@ export default function Example() {
                   </>
                 )}
               </Disclosure>
+              <Disclosure.Button as="a" href="/contact" className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-black ">
+                
+                  Contact us
+              </Disclosure.Button>
             </div>
           </Disclosure.Panel>
         </>
