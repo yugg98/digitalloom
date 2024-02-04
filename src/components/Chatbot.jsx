@@ -6,7 +6,7 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 import React, { useEffect, useRef, useState } from "react";
-import { qapairs } from "@/utils/qapair";
+import { qapairs } from "../utils/qapair";
 const Chatbot = () => {
   const [clicked, setClicked] = useState(false);
   const [messages, setMessages] = useState([]);

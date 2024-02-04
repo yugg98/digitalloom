@@ -23,8 +23,10 @@ const navigation = {
   ],
   legal: [
     { name: "Contact us", href: "/contact" },
-    { name: "Privacy Policy", href: "#" },
-    { name: "Terms of service", href: "#" },
+    { name: "Privacy Policy", href: "/privacy-policy" },
+    { name: "Terms of service", href: "/terms" },
+    { name: "Cookie Policy", href: "/cookie" },
+
   ],
   social: [
    

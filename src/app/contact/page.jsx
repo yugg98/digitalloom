@@ -5,9 +5,7 @@ import {
   PhoneIcon,
 } from "@heroicons/react/24/outline";
 import { useState } from "react";
-import { doc, setDoc } from "firebase/firestore";
 import { InformationCircleIcon } from "@heroicons/react/24/outline";
-import { db } from "@/utils/firebase";
 import { useRouter } from "next/navigation";
 import axios from "axios";
 export default function Contactus() {
@@ -70,7 +68,6 @@ export default function Contactus() {
                 </dt>
                 <dd>
                 2 Brady Way Westford
-                  <br /> 2 Brady Way,
                   <br /> Westford MA 01886
                 </dd>
               </div>
@@ -87,7 +84,7 @@ export default function Contactus() {
                     className="hover:text-gray-900"
                     href="tel:+1 (555) 234-5678"
                   >
-                   +1 (978) 893-6975
+                   978-320-LOOM (5666)
                   </a>
                 </dd>
               </div>
