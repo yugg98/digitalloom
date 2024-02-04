@@ -1,6 +1,7 @@
 import About from "@/components/Aboutus";
 import Button from "@/components/Button";
 import Cta, { Ctar } from "@/components/Cta";
+import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Industries from "@/components/Industries";
 import Ourclients from "@/components/Ourclients";

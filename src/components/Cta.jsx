@@ -26,9 +26,10 @@ export const Ctar = () => {
     <div className="bg-[#41C9FF]">
       <div className="mx-auto max-w-6xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-8">
         <h2 className="text-3xl font-bold tracking-tight leading-10 text-gray-900 sm:text-4xl">
-          Ready to grow your buisness?
+        Start your Digital Transformation 
+
           <br />
-          Get Your Quote Now!
+          journey with us
         </h2>
         <div className="mt-10 flex items-center gap-x-6 lg:mt-0 lg:flex-shrink-0">
           <Button />
