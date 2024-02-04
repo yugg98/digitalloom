@@ -162,7 +162,7 @@ export default function CarouselDesktop() {
 		},
 		{
 			id: 11,
-			heading: "Ai",
+			heading: "Ai Development",
 			image: "/insight10.png",
 			topic: "Business Use Cases",
 			content:
