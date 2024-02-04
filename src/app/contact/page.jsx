@@ -9,6 +9,7 @@ import { doc, setDoc } from "firebase/firestore";
 import { InformationCircleIcon } from "@heroicons/react/24/outline";
 import { db } from "@/utils/firebase";
 import { useRouter } from "next/navigation";
+import axios from "axios";
 export default function Contactus() {
   const [success, setSuccess] = useState(false);
   const router = useRouter();
@@ -37,17 +38,11 @@ export default function Contactus() {
       setError("");
       setSuccess(true);
       try {
-        let docname = data.email;
-        await setDoc(doc(db, "contacts", docname), data);
-        console.log("Data added successfully to Firestore!");
-        // Clear the form fields after submission
-        setData({
-          firstname: "",
-          email: "",
-          lastname: "",
-          phonenumber: "",
-        });
-        router.push("/");
+        axios.post('/api/send', data, {
+          headers: {
+            'Content-Type': 'application/json',
+          }
+        })
       } catch (error) {
         console.error("Error adding data to Firestore: ", error);
       }
