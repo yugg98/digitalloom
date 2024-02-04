@@ -235,11 +235,13 @@ export default function CarouselDesktop() {
                 {data[activeIndex2].content}
             </p>
             <div
-                className="underline underline-offset-4 text-black pb-[12px]"
-                onClick={() => window.open(data[activeIndex2].link, "_blank")}
-            >
-                Know More
-            </div>
+											className="underline underline-offset-4 text-black"
+											onClick={() =>
+												window.open("https://calendly.com/contact-tdl/30min", "_blank")
+											}
+										>
+											Read More
+										</div>
         </div>
     </div>
 )}
@@ -326,14 +328,14 @@ export default function CarouselDesktop() {
 										<p className="text-blue-700 text-[14px] font-[400]">
 											{data[activeIndex].content}
 										</p>
-										{/* <div
+										<div
 											className="underline underline-offset-4 text-black"
 											onClick={() =>
-												window.open(data[activeIndex].link, "_blank")
+												window.open("https://calendly.com/contact-tdl/30min", "_blank")
 											}
 										>
 											Read More
-										</div> */}
+										</div>
 									</div>
 								</div>
 							)}

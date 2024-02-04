@@ -1,3 +1,4 @@
+import Ourclientsth from "../components/Thclients";
 import About from "../components/Aboutus";
 import Button from "../components/Button";
 import Cta, { Ctar } from "../components/Cta";
@@ -23,6 +24,7 @@ export default function Home() {
     <Story/>
     </div>
     <Ourclients/>
+    <Ourclientsth/>
     <Steps/>
     <Ctar/>
     <Industries/>
