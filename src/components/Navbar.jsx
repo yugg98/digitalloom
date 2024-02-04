@@ -113,7 +113,7 @@ export default function Example() {
                   href="https://calendly.com/contact-tdl/30min"
                   className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
                 >
-                  Book Meeting
+                 Let&apos; Connect
                 </Link>
                 
               </div>
@@ -196,7 +196,7 @@ export default function Example() {
                 href="https://calendly.com/contact-tdl/30min"
                 className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-black "
               >
-                Book Meeting
+                Let&apos; Connect
               </Disclosure.Button>
             </div>
           </Disclosure.Panel>
