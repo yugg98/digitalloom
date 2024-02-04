@@ -187,14 +187,14 @@ const CarouselTablet = () => {
 										<p className="text-[#C3C5C4] text-[14px] font-[400]">
 											{data[activeIndex].content}
 										</p>
-										<div
+										{/* <div
 											className="underline underline-offset-4 text-white pb-[12px]"
 											onClick={() =>
 												window.open(data[activeIndex].link, "_blank")
 											}
 										>
 											Read More
-										</div>
+										</div> */}
 									</div>
 								</div>
 							)}
