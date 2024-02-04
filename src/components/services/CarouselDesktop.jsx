@@ -63,7 +63,8 @@ export default function CarouselDesktop() {
 		"/insight6.png",
 		"/insight7.png",
 		"/insight8.png",
-		
+		"/insight9.png",
+		"/insight10.png",
 	];
 	const data = [
 		{
@@ -133,6 +134,24 @@ export default function CarouselDesktop() {
 		{
 			id: 8,
 			heading: "Privacy & Cyber Security",
+			image: "/insight10.png",
+			topic: "Business Use Cases",
+			content:
+				"Delve into the critical topics of privacy and digital infrastructure, understanding the challenges and opportunities presented by emerging technologies in a connected world.",
+			link: "https://www.techtarget.com/whatis/feature/5-business-use-cases-for-NFTs",
+		},
+		{
+			id: 9,
+			heading: "Full Stack Development",
+			image: "/insight10.png",
+			topic: "Business Use Cases",
+			content:
+				"Delve into the critical topics of privacy and digital infrastructure, understanding the challenges and opportunities presented by emerging technologies in a connected world.",
+			link: "https://www.techtarget.com/whatis/feature/5-business-use-cases-for-NFTs",
+		},
+		{
+			id: 10,
+			heading: "Blockchain Development",
 			image: "/insight10.png",
 			topic: "Business Use Cases",
 			content:
