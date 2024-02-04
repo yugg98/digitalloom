@@ -108,6 +108,13 @@ export default function Example() {
                 >
                   Our Clients
                 </Link>
+                <Link
+                  href="https://calendly.com/contact-tdl/30min"
+                  className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+                >
+                  Book Meeting
+                </Link>
+                
               </div>
               <div className="flex items-center lg:hidden">
                 {/* Mobile menu button */}
@@ -134,14 +141,21 @@ export default function Example() {
 
           <Disclosure.Panel className="lg:hidden absolute z-[200] w-full bg-white">
             <div className="space-y-1 pb-3 pt-2 px-4">
-              <Disclosure.Button as="a" href="/" className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-black ">
-                  Home
+              <Disclosure.Button
+                as="a"
+                href="/"
+                className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-black "
+              >
+                Home
               </Disclosure.Button>
-              <Disclosure.Button as="a" href="/aboutus" className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-black ">
-                
-                  About us
+              <Disclosure.Button
+                as="a"
+                href="/aboutus"
+                className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-black "
+              >
+                About us
               </Disclosure.Button>
-              <Disclosure as="div" >
+              <Disclosure as="div">
                 {({ open }) => (
                   <>
                     <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-black ">
@@ -169,9 +183,19 @@ export default function Example() {
                   </>
                 )}
               </Disclosure>
-              <Disclosure.Button as="a" href="/contact" className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-black ">
-                
-                  Contact us
+              <Disclosure.Button
+                as="a"
+                href="/contact"
+                className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-black "
+              >
+                Contact us
+              </Disclosure.Button>
+              <Disclosure.Button
+                as="a"
+                href="https://calendly.com/contact-tdl/30min"
+                className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-black "
+              >
+                Book Meeting
               </Disclosure.Button>
             </div>
           </Disclosure.Panel>
