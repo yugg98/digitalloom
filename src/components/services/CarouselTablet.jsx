@@ -54,16 +54,62 @@ const CarouselTablet = () => {
 	const data = [
 		{
 			id: 1,
-			heading: "Blockchain",
-			Image: "/insight1.png",
-			topic: "Supply Chain",
+			heading: "Workforce Solutions",
+			image: "/wf.jpg",
+			topic: "Business Use Cases",
 			content:
-				"Unleash the power of transparency and security with blockchain technology, revolutionizing industries across the globe.",
-			link: "https://www.linkedin.com/posts/alessandro-benigni_transforming-supply-chains-with-nfts-activity-7070308222485618688-0lNc",
+				"Contingent Staffing | Direct Hire | RPO | Statement of Work 				",
+			link: "https://www.techtarget.com/whatis/feature/5-business-use-cases-for-NFTs",
 		},
 		{
 			id: 2,
-			heading: "Cryptocurrency",
+			heading: "Managed IT Services",
+			image: "/wf.jpg",
+			topic: "Business Use Cases",
+			content:
+				"AI Chatbots | Blockchain | Business Analytics | Digital Transformation | Enterprise App Development | Enterprise Business Solutions				",
+			link: "https://www.techtarget.com/whatis/feature/5-business-use-cases-for-NFTs",
+		},
+		{
+			id: 3,
+			heading: "Consulting and Strategy",
+			image: "/wf.jpg",
+			topic: "Business Use Cases",
+			content:
+				"Digital strategy development | Needs assessment and gap analysis | Roadmap for digital transformation",
+			link: "https://www.techtarget.com/whatis/feature/5-business-use-cases-for-NFTs",
+		},
+		{
+			id: 4,
+			heading: "Technology Infrastructure",
+			image: "/wf.jpg",
+			topic: "Business Use Cases",
+			content:
+				"Cloud computing services | Infrastructure as a Service (IaaS) and Platform as a Service (PaaS) | Modernizing legacy systems",
+			link: "https://www.techtarget.com/whatis/feature/5-business-use-cases-for-NFTs",
+		},
+		
+		{
+			id: 5,
+			heading: "E-commerce Solutions",
+			image: "/wf.jpg",
+			topic: "Business Use Cases",
+			content:
+				"Online storefront development | Payment gateway integration | Digital marketing strategies for e-commerce",
+			link: "https://www.techtarget.com/whatis/feature/5-business-use-cases-for-NFTs",
+		},
+		{
+			id: 6,
+			heading: "Customer Experience (CX) Enhancement",
+			image: "/wf.jpg",
+			topic: "Business Use Cases",
+			content:
+				"ser experience (UI/UX) design | Customer journey mapping | Personalization and customer segmentation",
+			link: "https://www.techtarget.com/whatis/feature/5-business-use-cases-for-NFTs",
+		},
+		{
+			id: 7,
+			heading: "Tokens & Coins",
 			image: "/insight2.png",
 			topic: "Business Use Cases",
 			content:
@@ -71,77 +117,14 @@ const CarouselTablet = () => {
 			link: "https://youtube.com/watch?v=KCbTOxC7iLo",
 		},
 		{
-			id: 3,
-			heading: "NFT",
-			image: "/insight3.png",
-			topic: "Blockchain-based Tokenization",
-			content:
-				"Explore the booming world of non-fungible tokens (NFTs), where digital assets are transformed into unique, collectible, and provably scarce assets.",
-			link: "https://youtube.com/watch?v=eZf2B12t8dA",
-		},
-		{
-			id: 4,
-			heading: "Metaverse",
-			image: "/insight4.png",
-			topic: "NFT Applications in Supply Chains",
-			content:
-				"Step into the immersive realm of the metaverse, where virtual reality and blockchain converge, creating boundless opportunities for social interaction and commerce.",
-			link: "https://cointelegraph.com/explained/what-are-the-applications-of-nfts-in-supply-chains",
-		},
-		{
-			id: 5,
-			heading: "DeFi",
-			image: "/insight5.png",
-			topic: "Art and NFTs",
-			content:
-				"Unlock the potential of decentralized finance (DeFi) and discover a new era of open, permissionless financial systems that empower individuals worldwide.",
-			link: "https://www.youtube.com/watch?v=xTyGb50ui1g",
-		},
-		{
-			id: 6,
-			heading: "DAO",
-			image: "/insight6.png",
-			topic: "Art and NFTs",
-			content:
-				"Embrace the power of decentralized autonomous organizations (DAOs) and witness the rise of community-driven decision-making and governance structures.",
-			link: "https://www.youtube.com/watch?v=xTyGb50ui1g",
-		},
-		{
-			id: 7,
-			heading: "DApps",
-			image: "/insight7.png",
-			topic: "Blockchain-based Tokenization",
-			content:
-				"Explore the vast ecosystem of decentralized applications (DApps) that are reshaping industries and empowering users with increased control over their data and digital experiences.",
-			link: "https://youtube.com/watch?v=KCbTOxC7iLo",
-		},
-		{
-			id: 8,
-			heading: "Stablecoin & CBDCs",
-			image: "/insight8.png",
-			topic: "Supply Chain Management",
-			content:
-				"Discover the stability and efficiency of stablecoins and the potential impact of central bank digital currencies (CBDCs) on the future of global finance.",
-			link: "https://cointelegraph.com/explained/what-are-the-applications-of-nfts-in-supply-chains",
-		},
-		{
-			id: 9,
-			heading: "Creator Economy",
-			image: "/insight9.png",
-			topic: "NFT Applications in Supply Chains",
-			content:
-				"Join the thriving creator economy, where individuals leverage blockchain technology to monetize their digital content and engage with their communities in innovative ways.",
-			link: "https://cointelegraph.com/explained/what-are-the-applications-of-nfts-in-supply-chains",
-		},
-		{
 			id: 10,
-			heading: "Privacy & Digital Infrastructure",
+			heading: "Privacy & Cyber Security",
 			image: "/insight10.png",
 			topic: "Business Use Cases",
 			content:
 				"Delve into the critical topics of privacy and digital infrastructure, understanding the challenges and opportunities presented by emerging technologies in a connected world.",
 			link: "https://www.techtarget.com/whatis/feature/5-business-use-cases-for-NFTs",
-		},
+		}
 	];
 	return (
 		<div className="py-12">
@@ -183,7 +166,7 @@ const CarouselTablet = () => {
 							className={` ${
 								index !== activeIndex
 									? ""
-									: "rounded-[6px] border-[1px] border-[#7F8B83] p-[14px] bg-[#f4f4f4] bg-[url('/carousalgradient.svg')] bg-right-bottom bg-fixed bg-no-repeat h-[50vh]"
+									: "rounded-[6px] border-[1px] border-blue-200 p-[14px] bg-[#f4f4f4]  bg-right-bottom bg-fixed bg-no-repeat h-[50vh]"
 							}`}
 							style={{
 								backgroundColor: `${index === activeIndex ? "#f4f4f4" : ""}`,
