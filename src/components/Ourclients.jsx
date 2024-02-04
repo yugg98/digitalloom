@@ -6,8 +6,8 @@ import Marquee from "react-fast-marquee";
 
  const Ourclients = () => {
   return (
-    <div id="clients" className="grid grid-cols-2 py-20 max-w-6xl mx-auto justify-center items-center">
-      <div className="mx-auto  mb-8 px-16 lg:px-8 max-w-3xl  ">
+    <div id="clients" className="grid md:grid-cols-2 py-20 max-w-6xl mx-auto justify-center items-center">
+      <div className="mx-auto  mb-8 md:px-16 px-6 lg:px-8 max-w-3xl  ">
         <h2 className="mb-4 mt-6 text-3xl font-extrabold text-black md:text-4xl">
           Our Clients and Partners
         </h2>
