@@ -17,6 +17,9 @@ export default function Home() {
   return (
   <main>
     <Hero/>
+    <div className="max-w-3xl rounded-xl overflow-hidden my-20 mx-auto">
+    <video src="/video.mp4" controls autoPlay/>
+    </div>
     <div className="mt-16">
     <Carousel/>
     </div>
