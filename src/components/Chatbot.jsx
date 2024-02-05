@@ -27,42 +27,40 @@ const Chatbot = () => {
 
   const stopwords = new Set([]);
   const getAnswer = (userQuestion) => {
-    // Preprocess the input (e.g., lowercasing, removing punctuation)
-    const processedInput = userQuestion.toLowerCase().replace(/[^\w\s]/gi, "");
-
     let bestAnswer = "Sorry, I don't understand that question.";
     let highestScore = 0;
-
-    // Tokenize the user input (split into words)
-    const inputWords = new Set(
-      processedInput.split(" ").filter((word) => !stopwords.has(word))
-    ); // Assuming you have a set of stopwords
-
+  
+    const normalizeText = (text) => text.toLowerCase().replace(/[^\w\s]/gi, "");
+  
+    const processedInput = normalizeText(userQuestion);
+  
+    // First, try to find an exact match
+    for (const qaPair of qapairs) {
+      if (normalizeText(qaPair.question) === processedInput) {
+        return qaPair.answer;
+      }
+    }
+  
+    // If no exact match, find the best match based on common words
     qapairs.forEach((qaPair) => {
+      const normalizedQuestion = normalizeText(qaPair.question);
+  
+      const inputWords = new Set(processedInput.split(" "));
+      const questionWords = new Set(normalizedQuestion.split(" "));
       let score = 0;
-
-      // Tokenize the question (split into words)
-      const questionWords = new Set(
-        qaPair.question
-          .toLowerCase()
-          .split(" ")
-          .filter((word) => !stopwords.has(word))
-      );
-
-      // Calculate the match score (number of matching words)
+  
       questionWords.forEach((word) => {
         if (inputWords.has(word)) {
-          score += 1; // Increment score for each matching word
+          score += 1;
         }
       });
-
-      // Update best answer if this score is the highest so far and meets the minimum word match threshold
-      if (score > highestScore && score >= 3) {
+  
+      if (score > highestScore) {
         highestScore = score;
         bestAnswer = qaPair.answer;
       }
     });
-
+  
     return bestAnswer;
   };
 

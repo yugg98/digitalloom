@@ -1,5 +1,5 @@
 const stats = [
-  { label: "Underpaid employees", value: "30+" },
+  { label: "Employees", value: "30+" },
   { label: "Placated clients  ", value: "50+" },
   { label: "Ratings ", value: "4.9/5" },
 
