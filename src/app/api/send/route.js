@@ -9,13 +9,14 @@ export async function POST(req) {
   try {
     const data = await resend.emails.send({
         from: 'Acme <onboarding@resend.dev>',
-        to: ['gupta.yug9826@gmail.com','contact@thedigitalloom.com'],
+        to: ['contact@thedigitalloom.com'],
         subject: 'New Request',
         react: EmailTemplate({ firstname: firstname,lastname:lastname,email:email,phonenumber:phonenumber,message:message }),
     });
+    console.log(data)
     return NextResponse.json({ data });
   } catch (error) {
-    console.log("hello")
+    console.log(error)
     return NextResponse.json({ error });
   }
 }
