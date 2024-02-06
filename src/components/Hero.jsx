@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div class="">
+    <div class=" bg-[url('/herobg.png')] bg-cover">
       <section class=" py-10 sm:py-16 lg:py-24">
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div class="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
