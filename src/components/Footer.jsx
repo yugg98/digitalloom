@@ -88,7 +88,7 @@ export default function Example() {
                     alt="Your Company"
                   />
             <p className="text-sm leading-6 text-gray-300">
-            Get ready to expedite your dive into Technology with Disruption, Innovation & Revolution with us!
+            Get ready to expedite your dive into Technology with Disruption,<br/> Innovation & Revolution with us!
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
