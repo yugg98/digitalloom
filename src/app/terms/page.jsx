@@ -6,7 +6,7 @@ const page = () => {
     <div className="prose  max-w-5xl mx-auto my-20  ">
   <h1>Terms of Use</h1>
   <p>Last Updated: Jan 30, 2024</p>
-  <p>This document outlines the Terms of Use for the website located at  https://www.thedigitalloom.com/, owned and operated by Threeway Studios. By using this website, you agree to these terms and conditions, including our Privacy Policy.</p>
+  <p>This document outlines the Terms of Use for the website located at  https://www.thedigitalloom.com/, owned and operated by The Digital Loom. By using this website, you agree to these terms and conditions, including our Privacy Policy.</p>
 
   <h2>Definitions</h2>
   <ul>
@@ -14,7 +14,7 @@ const page = () => {
     <li><p>Registered User(s):</p> Individuals who have created an account and may access certain features.</li>
     <li><p>User(s):</p> Anyone accessing, browsing, or navigating the website.</li>
     <li><p>Data Collection:</p> Collection of personal information for service provision. Refer to our Privacy Policy for more details.</li>
-    <li><p>Affiliate(s):</p> Entities in direct control or contract with Threeway Studio.</li>
+    <li><p>Affiliate(s):</p> Entities in direct control or contract with The Digital Loom.</li>
     <li><p>Services:</p> Solutions and support options available through the website.</li>
   </ul>
 
@@ -25,7 +25,7 @@ const page = () => {
     <li>We reserve the right to modify or disable access at our discretion.</li>
     <li>No liability for losses or damages due to service inaccessibility.</li>
     <li>Right to disable access if your representations are untrue or inaccurate.</li>
-    <li>Responsibility to indemnify Threeway Studio against claims or damages arising from your use of the website.</li>
+    <li>Responsibility to indemnify The Digital Loom against claims or damages arising from your use of the website.</li>
   </ul>
 
   <h2>Account and Registration</h2>
@@ -38,10 +38,10 @@ const page = () => {
   <p>We reserve the right to amend these Terms of Use and Privacy Policy. Continued use of the website after amendments signifies acceptance.</p>
 
   <h2>Representations and Warranties</h2>
-  <p>Threeway Studio does not guarantee the accuracy or reliability of website content and is not liable for any interruptions or errors in the service.</p>
+  <p>The Digital Loom does not guarantee the accuracy or reliability of website content and is not liable for any interruptions or errors in the service.</p>
 
   <h2>Intellectual Property Rights and Licensing</h2>
-  <p>All content on the website is the property of Threeway Studio and is protected by intellectual property laws. You are granted a limited license for personal use only.</p>
+  <p>All content on the website is the property of The Digital Loom and is protected by intellectual property laws. You are granted a limited license for personal use only.</p>
 
   <h2>Disclaimer and Limitation of Liability</h2>
   <p>We are not liable for any damages arising from the use of the website. The website is provided on an “as is” and “as available” basis without warranties.</p>
@@ -59,7 +59,7 @@ const page = () => {
   <p>Disputes will be settled through arbitration in New Delhi, in accordance with the laws of India.</p>
 
   <h2>Force Majeure</h2>
-  <p>Threeway Studios is not liable for delays or failures in performance resulting from acts beyond its control.</p>
+  <p>The Digital Loom is not liable for delays or failures in performance resulting from acts beyond its control.</p>
 
   <h2>Contact Information</h2>
   <p>For queries or concerns, please contact us at contact@thedigitalloom.com.</p>
