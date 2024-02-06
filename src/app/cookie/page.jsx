@@ -9,7 +9,7 @@ const page = () => {
   <p>By using the website located at  https://www.thedigitalloom.com/, you accept our use of cookies as outlined in this Cookie Policy.</p>
 
   <h2>About Digital Loom</h2>
-  <p>The Digital Loom, specializing in Growth as a Service (GaaS) and Blockchain as a Service (BaaS), is committed to your privacy and aims to provide a transparent and user-friendly experience.</p>
+  <p>The Digital Loom Inc. has a competitive advantage in IT Staffing and Services, leading the charge in digital transformation and enterprise reinvention. We deliver end-to-end solutions par excellence to clients across diverse sectors. Our dynamic suite of cutting-edge solutions, rooted in Generative AI, Machine Learning, Blockchain technology, Cloud & Infrastructure, Data & Analytics, Digital & Product engineering, App Modernization, and Enterprise Cloud Integration, sets us apart from other companies and makes us uniquely positioned to cater to traditional enterprise systems and modern cloud innovation.</p>
 
   <h2>What are Cookies?</h2>
   <p>Cookies are small text files stored on your device when you visit a website. They are used to make websites work efficiently, enhance user experience, and gather information about user preferences.</p>
