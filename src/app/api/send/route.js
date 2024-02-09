@@ -5,13 +5,13 @@ import { Resend } from 'resend';
 const resend = new Resend("re_7Y3biwdj_3bhCvRiMucspsWp76TV1Ukhb");
 
 export async function POST(req) {
-  const {firstname,lastname,email,phonenumber,message} = await req.json()
+  const {fullname,email,phonenumber,message} = await req.json()
   try {
     const data = await resend.emails.send({
       from: 'onboarding@resend.dev',
   to: 'thedigitalloom@gmail.com',
         subject: 'New Request',
-        react: EmailTemplate({ firstname: firstname,lastname:lastname,email:email,phonenumber:phonenumber,message:message }),
+        react: EmailTemplate({ firstname:fullname,email:email,phonenumber:phonenumber,message:message }),
     });
     console.log(data)
     return NextResponse.json({ data });
