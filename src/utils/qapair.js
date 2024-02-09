@@ -160,7 +160,56 @@ export const qapairs = [
     answer:
       "The duration of a software project varies based on its complexity and requirements. We can provide a more accurate timeline after discussing your specific needs.",
   },
-
+    {
+      "question": "What is Digital Loom?",
+      "keywords": ["Digital Loom", "what"],
+      "answer": "Digital Loom is an IT services company focused on empowering organizations through IT staffing solutions and comprehensive IT-enabled services, including digital transformation and technology integration."
+    },
+    {
+      "question": "What services does Digital Loom offer?",
+      "keywords": ["services", "Digital Loom"],
+      "answer": "Digital Loom offers a range of services including consulting and strategy for digital transformation, blockchain solutions, cloud migration, business process optimization, and customer experience enhancement."
+    },
+    {
+      "question": "What is Digital Loom's vision?",
+      "keywords": ["vision", "Digital Loom"],
+      "answer": "Digital Loom aims to be the unrivaled enabler of growth for organizations of all sizes by offering top-tier IT staffing and IT-enabled services, focusing on digital transformation, technology integration, and innovation through AI and ML."
+    },
+    {
+      "question": "What industries does Digital Loom serve?",
+      "keywords": ["industries", "Digital Loom"],
+      "answer": "Digital Loom serves various industries including education, finance, healthcare, hi-tech, logistics, manufacturing, media, oil, real estate, retail, travel, and utilities."
+    },
+    {
+      "question": "How does Digital Loom support digital transformation?",
+      "keywords": ["support", "digital transformation", "Digital Loom"],
+      "answer": "Digital Loom supports digital transformation through consulting and strategy development, needs assessment, gap analysis, and roadmap creation, alongside offering solutions like blockchain and cloud infrastructure."
+    },
+    {
+      "question": "What makes Digital Loom's blockchain solutions unique?",
+      "keywords": ["blockchain solutions", "unique", "Digital Loom"],
+      "answer": "Digital Loom specializes in delivering customized blockchain solutions tailored to meet the unique challenges and goals of each industry, ensuring scalable and efficient applications."
+    },
+    {
+      "question": "How can Digital Loom empower my business growth?",
+      "keywords": ["empower", "business growth", "Digital Loom"],
+      "answer": "Digital Loom empowers business growth by providing meticulously curated IT staffing solutions, leveraging technology to drive productivity and success, and offering transformative solutions."
+    },
+    {
+      "question": "What is the mission of Digital Loom?",
+      "keywords": ["mission", "Digital Loom"],
+      "answer": "Digital Loom's mission is to provide IT staffing solutions and empower companies with the right technology and people, catalyzing growth and driving exceptional productivity."
+    },
+    {
+      "question": "Can Digital Loom help with cloud migration?",
+      "keywords": ["help", "cloud migration", "Digital Loom"],
+      "answer": "Yes, Digital Loom offers cloud migration services to help businesses restructure their operations and processes, enhancing efficiency and security."
+    },
+    {
+      "question": "Why choose Digital Loom for IT staffing?",
+      "keywords": ["choose", "IT staffing", "Digital Loom"],
+      "answer": "Choose Digital Loom for IT staffing to gain access to developed talent perfectly suited for diverse roles, driving your company's productivity and success."
+    },
   // 'How many' Questions
   {
     question: "How many years of experience does The Digital Loom have?",
