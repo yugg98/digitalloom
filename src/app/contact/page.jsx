@@ -209,14 +209,7 @@ export default function Contactus() {
             </div>
           </form>
         </div>
-        <div className="md:mt-0 mt-4">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3504.686195058195!2d77.21345137549773!3d28.549150475710352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDMyJzU2LjkiTiA3N8KwMTInNTcuNyJF!5e0!3m2!1sen!2sin!4v1697278191185!5m2!1sen!2sin"
-            className="w-full h-[450px]"
-            style={{ border: 0 }}
-            loading="lazy"
-          ></iframe>
-        </div>
+       
       </div>
     </div>
   );
