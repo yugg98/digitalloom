@@ -24,10 +24,8 @@ export default function Home() {
     <Carousel/>
     </div>
     <div className="mb-24">
-    <Story/>
     </div>
     <Ourclients/>
-    <Ourclientsth/>
     <Steps/>
     <Ctar/>
     <Industries/>
