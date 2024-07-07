@@ -32,7 +32,7 @@ const navigation = {
    
     {
       name: "Twitter",
-      href: "https://twitter.com/thedigitaloom",
+      href: "https://x.com/thedigitalloom",
       icon: (props) => (
         <svg
           width="26"
