@@ -1,11 +1,9 @@
 const navigation = {
- 
   solutions: [
     { name: "Workforce Solutions", href: "/services/workforce-solutions" },
     { name: "Managed IT Services", href: "/services/managed-it-services" },
     { name: "Cloud Migration", href: "/services/cloud-migration" },
     { name: "Consulting and Strategy", href: "/services/consulting-strategy" },
-   
   ],
   company: [
     { name: "About", href: "/aboutus" },
@@ -26,17 +24,40 @@ const navigation = {
     { name: "Privacy Policy", href: "/privacy-policy" },
     { name: "Terms of service", href: "/terms" },
     { name: "Cookie Policy", href: "/cookie" },
-
   ],
   social: [
-   
     {
       name: "Twitter",
       href: "https://x.com/thedigitalloom",
       icon: (props) => (
-        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0,0,256,256" style="fill:#000000;"> <g fill="none" fill-rule="none" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.33333,5.33333)"><path d="M38,42h-28c-2.209,0 -4,-1.791 -4,-4v-28c0,-2.209 1.791,-4 4,-4h28c2.209,0 4,1.791 4,4v28c0,2.209 -1.791,4 -4,4z" fill="#ec79f5" fill-rule="evenodd"></path><path d="M34.257,34h-6.437l-13.991,-20h6.437zM28.587,32.304h2.563l-11.651,-16.608h-2.563z" fill="#ffffff" fill-rule="nonzero"></path><path d="M15.866,34l7.203,-8.344l-0.942,-1.249l-8.304,9.593z" fill="#ffffff" fill-rule="nonzero"></path><path d="M24.45,21.721l0.905,1.289l7.781,-9.01h-2z" fill="#ffffff" fill-rule="nonzero"></path></g></g> </svg>
-
-
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          x="0px"
+          y="0px"
+          width="28"
+          height="28"
+          viewBox="0,0,256,256"
+        >
+          <g
+            fill="#ec79f5"
+            fill-rule="nonzero"
+            stroke="none"
+            stroke-width="1"
+            stroke-linecap="butt"
+            stroke-linejoin="miter"
+            stroke-miterlimit="10"
+            stroke-dasharray=""
+            stroke-dashoffset="0"
+            font-family="none"
+            font-weight="none"
+            font-size="none"
+            text-anchor="none"
+          >
+            <g transform="scale(5.12,5.12)">
+              <path d="M11,4c-3.85433,0 -7,3.14567 -7,7v28c0,3.85433 3.14567,7 7,7h28c3.85433,0 7,-3.14567 7,-7v-28c0,-3.85433 -3.14567,-7 -7,-7zM11,6h28c2.77367,0 5,2.22633 5,5v28c0,2.77367 -2.22633,5 -5,5h-28c-2.77367,0 -5,-2.22633 -5,-5v-28c0,-2.77367 2.22633,-5 5,-5zM13.08594,13l9.22266,13.10352l-9.30859,10.89648h2.5l7.9375,-9.29297l6.53906,9.29297h7.9375l-10.125,-14.38672l8.21094,-9.61328h-2.5l-6.83984,8.00977l-5.63672,-8.00977zM16.91406,15h3.06445l14.10742,20h-3.06445z"></path>
+            </g>
+          </g>
+        </svg>
       ),
     },
     {
@@ -47,6 +68,7 @@ const navigation = {
           width="22"
           height="22"
           viewBox="0 0 22 22"
+          className="mt-1"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -57,7 +79,6 @@ const navigation = {
         </svg>
       ),
     },
-   
   ],
 };
 
@@ -70,13 +91,10 @@ export default function Example() {
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-2 ">
           <div className="space-y-8">
-          <img
-                    className="h-48 w-auto"
-                    src="/logo.svg"
-                    alt="Your Company"
-                  />
+            <img className="h-48 w-auto" src="/logo.svg" alt="Your Company" />
             <p className="text-sm leading-6 text-gray-300">
-            Get ready to expedite your dive into Technology with Disruption,<br/> Innovation & Revolution with us!
+              Get ready to expedite your dive into Technology with Disruption,
+              <br /> Innovation & Revolution with us!
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
