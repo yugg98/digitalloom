@@ -34,21 +34,9 @@ const navigation = {
       name: "Twitter",
       href: "https://x.com/thedigitalloom",
       icon: (props) => (
-        <svg
-          width="26"
-          height="21"
-          viewBox="0 0 26 21"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M24.2951 1.01065C24.2951 1.01065 22.1583 2.27282 20.9703 2.63072C20.3325 1.89746 19.485 1.37775 18.5423 1.14187C17.5996 0.905989 16.6072 0.965323 15.6993 1.31185C14.7914 1.65837 14.0118 2.27536 13.466 3.07938C12.9202 3.88339 12.6345 4.83564 12.6476 5.80732V6.86619C10.7867 6.91444 8.94286 6.50174 7.28016 5.66485C5.61745 4.82795 4.18753 3.59284 3.11774 2.06952C3.11774 2.06952 -1.11774 11.5993 8.41208 15.8348C6.23137 17.3151 3.63357 18.0573 1 17.9525C10.5298 23.2469 22.1774 17.9525 22.1774 5.77556C22.1774 5.48119 22.1477 5.18683 22.0927 4.8967C23.1727 3.83147 24.2951 1.01065 24.2951 1.01065Z"
-            stroke="#EC79F5"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0,0,256,256" style="fill:#000000;"> <g fill="none" fill-rule="none" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.33333,5.33333)"><path d="M38,42h-28c-2.209,0 -4,-1.791 -4,-4v-28c0,-2.209 1.791,-4 4,-4h28c2.209,0 4,1.791 4,4v28c0,2.209 -1.791,4 -4,4z" fill="#ec79f5" fill-rule="evenodd"></path><path d="M34.257,34h-6.437l-13.991,-20h6.437zM28.587,32.304h2.563l-11.651,-16.608h-2.563z" fill="#ffffff" fill-rule="nonzero"></path><path d="M15.866,34l7.203,-8.344l-0.942,-1.249l-8.304,9.593z" fill="#ffffff" fill-rule="nonzero"></path><path d="M24.45,21.721l0.905,1.289l7.781,-9.01h-2z" fill="#ffffff" fill-rule="nonzero"></path></g></g> </svg>
+
+
       ),
     },
     {
