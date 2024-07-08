@@ -65,10 +65,10 @@ const navigation = {
       href: "https://www.linkedin.com/company/the-digital-loom/",
       icon: (props) => (
         <svg
-          width="22"
-          height="22"
+          width="24"
+          height="24"
           viewBox="0 0 22 22"
-          className="mt-1"
+          className="mt-[2px]"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
